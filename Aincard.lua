@@ -162,6 +162,14 @@ section1:addToggle("Inf Money", nil, function(state)
             game:GetService("ReplicatedStorage").Inventory.EquipArmor:FireServer(unpack(args))
             wait(0.1)
             game:GetService("ReplicatedStorage").Quest.sellarmor:FireServer()
-        end
+    end
+
+
+local page4 = venyx:addPage("Misc", 5012544693)
+local section1 = page3:addSection("Misc")
+
+    ("Join Low Server", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/10x00/Public-Scripts/main/Lowest%20Server"))()
+        end);
     end
 end)
